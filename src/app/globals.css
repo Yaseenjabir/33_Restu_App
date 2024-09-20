@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#heroSection {
+  background-image: url("https://images.unsplash.com/photo-1589170003204-fc2934fc91c7?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#confirmationTick {
+  animation: confirmationTick 0.3s ease-in-out;
+  width: 48px;
+  height: 48px;
+}
+
+@keyframes confirmationTick {
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  t0 {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+#deliverLoginHeroSection {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/fir-project-af012.appspot.com/o/restaurant%2Fdeliverylogin.jpeg?alt=media&token=68cd2c99-1918-437c-bdf1-a1e19b2f8815");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#restaurantDashboard {
+  background-image: url("https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=");
+  background-position: center;
+  background-size: cover;
+}
+
+#restaurantMobileSidebar {
+  background-image: url("https://media.istockphoto.com/id/1471844577/photo/delicious-double-burger-with-french-fries-and-vegetables-on-wooden-cutting-board.jpg?s=612x612&w=0&k=20&c=HrEX2r48EOUVVeyRsGKuk3IuBNtJZEQ5XrK10iGMXz0=");
+  background-position: center;
+  background-size: cover;
+}
+#chefBackground {
+  background-image: url("https://images.unsplash.com/photo-1488992783499-418eb1f62d08?q=80&w=1589&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+#deliveryBackground {
+  background-image: url("https://images.unsplash.com/photo-1633253504445-c6c22f5f17f9?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#aboutPage {
+  background-image: url("https://images.unsplash.com/photo-1594392175506-29798601d67e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+
+#ourMissionTopSection {
+  background-image: url("https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+#contactPage {
+  background-image: url("https://images.unsplash.com/photo-1497644083578-611b798c60f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
