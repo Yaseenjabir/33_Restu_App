@@ -55,9 +55,6 @@ export default function CostumerLogin({ setIsLogin }) {
   const dispatch = useDispatch();
 
   const handleLogin = async (values) => {
-    console.log(process.env.NEXT_PUBLIC_API_BASE_URL);
-    return;
-
     setSpinner(true);
     const response = await fetch(`/api/costumer/costumerlogin`, {
       method: "POST",
