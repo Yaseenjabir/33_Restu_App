@@ -56,7 +56,7 @@ export default function CostumerLogin({ setIsLogin }) {
 
   const handleLogin = async (values) => {
     setSpinner(true);
-    const response = await fetch(`/api/costumer/costumerlogin`, {
+    const response = await fetch(`api/costumer/costumerlogin`, {
       method: "POST",
       body: JSON.stringify({
         emailAddress: values.emailAddress,
