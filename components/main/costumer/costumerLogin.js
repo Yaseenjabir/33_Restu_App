@@ -57,7 +57,7 @@ export default function CostumerLogin({ setIsLogin }) {
   const handleLogin = async (values) => {
     setSpinner(true);
     const response = await fetch(
-      `${window.location.origin}/api/costumer/costumerlogin`,
+      `https://33-restu-app.vercel.app/api/costumer/costumerlogin`,
       {
         method: "POST",
         body: JSON.stringify({
@@ -100,7 +100,7 @@ export default function CostumerLogin({ setIsLogin }) {
     <>
       <section className="w-full py-20 bg-[#f8f8f8] px-5 lg:px-20 justify-center">
         <section className="shadow-xl w-full flex flex-col lg:flex-row-reverse">
-          <div className="min-h-[400px] lg:min-h-[422px] h-full border text-white text-center bg-green-500 flex flex-col items-center justify-center w-full px-5 gap-2">
+          <div className="min-h-[400px] lg:min-h-[422px] h-full border text-white text-center bg-purple-500 flex flex-col items-center justify-center w-full px-5 gap-2">
             <h1 className="font-bold text-3xl">Welcome to login page</h1>
             <p className="font-semibold">Don&apos;t have an account?</p>
             <button
